@@ -1,0 +1,25 @@
+{
+  "name": "rmdb-backend",
+  "version": "1.0.0",
+  "description": "backend code for rate my dog breeder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hennigk/rmdb-backend.git"
+  },
+  "author": "Kayla Hennig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hennigk/rmdb-backend/issues"
+  },
+  "homepage": "https://github.com/hennigk/rmdb-backend#readme",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "4.1.9"
+  }
+}
